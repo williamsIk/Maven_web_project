@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Author page</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+</head>
+<body>
+<table>
+<!--caption>Authors</caption-->
+	<thead>
+		<tr style="text-align: left;">
+			<th>Author Id</th>
+			<th>Author Name</th>
+			<th>Author Surname</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr wicket:id = "authors" style="text-align: left;">
+			<td><span wicket:id = "author_id"></span></td>
+			<td><span wicket:id = "author_name"></span></td>
+			<td><span wicket:id = "author_surname"></span></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

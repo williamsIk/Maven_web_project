@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home page</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+</head>
+<body>
+  <table>
+	  <thead>
+		  <tr style="text-align: left;">
+		  <th> Book Id</th>
+		  <th>Title</th>
+		  <th>Release Date</th>
+		  <th>Pages</th>
+		  </tr>
+	  </thead>
+	  <tbody>
+		  <tr wicket:id="books" style="text-align: left;">
+			  <td><span wicket:id="book_Id"></span></td>
+			  <td><span wicket:id="title"></span></td>
+			  <td><span wicket:id="release_date"></span></td>
+			  <td><span wicket:id="pages"></span></td>
+		  </tr>
+	  </tbody>
+  </table>
+</body>
+</html>
